@@ -1,0 +1,23 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for creating apps using Webpack tooling",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "author": "Pushpak Pawar",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
